@@ -1,0 +1,1720 @@
+/*
+Theme Name: 🌟Torres Digital®
+Theme URI: https://www.facebook.com/torresdigital/
+Template: cenote
+
+Author: 🌟 Torres Digital® | Sites → Lojas Virtuais e e-Commerce
+Author URI: https://www.facebook.com/torresdigital/
+Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web voltado para todos os Nichos do Mercado tais como os de insumos, commodities, pequenos, médios e grandes Lojistas que desejam alcançar mais Clientes através do e-Commerce: Sites, Aplicativos, Lojas Virtuais, Marketplaces, WordPress e Woocommerce, integrados com os Principais Cartões e Soluções de Pagamentos do Brasil e do Mundo; tais como Cielo, CyberSource, PagSeguro, Stripe, Vindi, MasterCard, Visa, American Express, outros.
+
+Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,grid-layout,post-formats,editor-style,custom-background,custom-colors,custom-header,custom-logo,featured-images,footer-widgets,full-width-template,theme-options,threaded-comments,translation-ready,blog,news,rtl-language-support,e-commerce
+Version: 09.12.2020.1607495350
+Updated: 2020-12-09 03:29:10
+
+*/
+
+/* ********************* All Begin ********************* */
+
+
+/*Padrao*/
+
+#first_home_content h1,
+#second_home_content h2,
+.titulo {
+	font-size: 68px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#first_home_content h2,
+.sub-titulo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.titulo,
+.sub-titulo {
+	color: #16181a;
+}
+
+html .titulo {
+	color: #16181a;
+	line-height: 59px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.kc-elm.kc-css-323154.kc-raw-code::after {
+	width: 3rem;
+	display: block;
+	border-color: black;
+	content: ' ';
+	display: block;
+	border-style: solid;
+	border-width: 2px 0 0;
+	margin-top: 7px;
+}
+
+/* focus outline */
+.custom-logo-link:focus-visible,
+.custom-logo-link:focus,
+.tg-site-header:focus .tg-header-top:focus ul li a {
+	outline: none;
+}
+
+html .fa-phone::before {
+	content: "\f232";
+	font-size: 26px;
+	transition: background 0.2s ease-in-out 0s;
+	animation: shadow-pulse 1s infinite;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(38, 100, 32, 0.4);
+	border-radius: 30px;
+	background: #96ff4f;
+	height: 21px;
+	line-height: 22px;
+}
+
+/* home butons */
+
+html .botao_home {
+	padding: 0;
+	font-size: 18px;
+	position: relative;
+	float: none;
+	display: block;
+	width: 100%;
+	border: none;
+	text-decoration: none
+}
+
+.entry-content a {}
+
+#home_button_id {
+	margin-bottom: 12px;
+}
+
+/*.home_button_container { border: 3px solid #333; border-radius: 30px; position: relative; display: initial;
+  margin: 0 auto; float: inherit; width: 50%; text-align: center; padding: 4px 0; } */
+
+.home_button_container {
+	border: 3px solid #333;
+	border-radius: 30px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	float: none;
+	width: 245px;
+	text-align: center;
+	padding: 4px 0;
+	height: 50px;
+}
+
+.home_button_container a {}
+
+.botao_home .fa:hover {
+	color: #16181a;
+}
+
+.botao_home .fa.fa-whatsapp {
+	font-size: 28px;
+	top: 2px;
+	position: relative;
+	display: initial;
+}
+
+
+.cenote-back-to-top.cenote-back-to-top--show span {
+	background: white;
+	padding: 5px 15px;
+	border: none;
+	border-radius: 30px;
+	transition: background 0.2s ease-in-out 0s;
+	animation: shadow-pulse 1s infinite;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+}
+
+/* before do ola */
+
+.first_content_title {
+	color: #000;
+	font-size: 17px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	text-align: left;
+}
+
+.first_content_title::after {
+	content: ' ';
+	display: block;
+	border-style: solid;
+	border-width: 2px 0 0;
+	width: 100%
+		/* 32rem */
+	;
+	position: relative;
+	margin: 6px auto 0;
+}
+
+/* ## */
+
+html .site_content_p {
+	color: #333;
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin: 0px 50px;
+  position: relative;
+  display: block;
+  text-align: justify;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+#second_home_content {
+	background: #eaefe4;
+}
+
+#second_home_content span {
+	font-size: 3.125rem;
+}
+
+
+.sudo-su h1 {
+	font-size: 34px;
+}
+
+.sudo-su h2,
+.sub-titulo {
+	font-size: 24px;
+}
+
+.sudo-su h3 {
+	font-size: 22px;
+}
+
+
+/* index rules */
+
+.index-rules p {
+	font-size: 17px;
+}
+
+.index-rules h2 {
+	font-size: 34px;
+	margin-bottom: 12px
+}
+
+.index-rules h3 {
+	margin: 0
+}
+
+.depois-do-titulo p {
+	font-size: 18px;
+}
+
+
+.tg-contact-info,
+.sudo-su h1,
+.sudo-su h2,
+.sudo-su h3,
+.sudo-su h4,
+.sudo-su h5,
+.sudo-su h6,
+#second_home_content span,
+.slide_title,
+.titulo,
+.sub-titulo {
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
+	font-weight: 500;
+	line-height: 1.1;
+	letter-spacing: 1px
+}
+
+.home .breadcrumb-torres-digital,
+.archive .page-header {
+	display: none;
+}
+
+.torres-digital-background-head {
+	height: 250px;
+	background-image: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/img/head/torres-digital-head.jpg");
+	z-index: 0;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow: 0px -4px 35px -25px rgba(0, 0, 0, 0.31);
+}
+
+.breadcrumb-torres-digital a {
+	color: #16181a;
+	font-size: 12.5px;
+	font-weight: 600
+}
+
+.woocommerce .woocommerce-breadcrumb a {
+	color: #16181a;
+	font-size: 12.5px;
+}
+
+.breadcrumb-torres-digital,
+.sudo-su .woocommerce-breadcrumb {
+	font-size: 12.5px;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 600;
+	color: #555;
+	letter-spacing: 1px;
+	margin: 12px auto 20px;
+}
+
+.facebook-imagens img {
+	border: 1px solid #eee;
+	border-radius: 2px;
+}
+
+.sudo-su iframe {
+	position: relative;
+	margin: 0 auto;
+	float: none;
+	display: initial;
+	width: 100%;
+}
+
+/*Definindo regras do Child no tema Pai */
+
+.home .entry-title {
+	display: none;
+}
+
+.site-content {
+	margin-top: 0px;
+}
+
+.sudo-su blockquote p,
+blockquote a {
+	color: #A08240;
+	font-family: 'Inconsolata', monospace;
+	font-size: 12.9px;
+	font-weight: 600;
+}
+
+blockquote {
+	padding: 0px 40px;
+	margin: 0 0 22px;
+	font-size: 20px;
+	background: #fff;
+}
+
+p {
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif /* -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" */;
+  
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #2d2d2d;
+	letter-spacing: 0;
+}
+
+blockquote::before {
+	left: 7px;
+	top: -6px;
+}
+
+blockquote::after {
+	right: 8px;
+}
+
+/*Mobile navigation*/
+.cenote-mobile-navigation a::after {
+	display: none;
+}
+
+.cenote-mobile-navigation {
+	width: calc(100% - 274px);
+}
+
+.tg-mobile-menu-toggle {
+	padding: 7px 5px 0;
+	width: 27px;
+	min-width: 27px;
+	height: 27px;
+	min-height: 27px;
+	border: none;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
+	box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
+	animation: shadow-pulse 1s infinite;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+}
+
+.sudo-su #mobile-navigation a {
+	display: list-item;
+	margin: 15px auto;
+}
+
+/*footer info*/
+.tg-site-footer .tg-footer-bottom .site-info {
+	font-family: 'Inconsolata', monospace;
+	font-size: 11px;
+}
+
+/*Head*/
+
+.tg-site-header .tg-header-top {
+	background: #fff;
+}
+
+.tg-site-header .tg-header-top ul li a {
+	color: #2b2b2b;
+	font-weight: 600
+}
+
+#cenote-sticky-header {
+	background: #fff;
+	
+}
+#cenote-sticky-header {
+  background: #fff;
+  padding: 5px 0;
+  border-top: red 5px solid;
+  box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.31);
+  /* box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31); */
+}
+
+.tg-site-header .tg-header-bottom .header-bottom-top {
+	padding: 0;
+}
+
+/*Logo*/
+
+.site-branding {
+	width: 100%;
+}
+
+html .torres-digital-logo-sticky {
+	background-image: url("/jardinagem/wp-content/themes/torres-digital-wordpress-official-theme-master/img/head/torres-digital-sticky-logo.jpg");
+	width: 175px;
+	height: 45px;
+	position: relative;
+	display: inline flow-root list-item;
+}
+
+.main-navigation.cenote-sticky-navigation.tg-site-menu--default {
+	width: 85%%;
+	display: flex;
+}
+
+/*Menu*/
+
+#site-navigation #primary-menu a,
+#primary-menu a,
+#header-menu a {
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	padding: 0 8px;
+	margin: 9px 8px 0;
+	color: #161619;
+	font-weight: 600;
+	text-transform: lowercase;
+	border-bottom-color: transparent;
+}
+
+.tg-contact-info__email .fa.fa-envelope {
+	display: none;
+}
+
+.tg-site-header .tg-header-bottom .header-bottom-bottom .tg-container {
+	padding: 0;
+}
+
+.site-branding .custom-logo-link {
+	margin-bottom: 0;
+}
+
+.tg-contact-info__email span:hover,
+.fa:hover,
+.social-link a:hover {
+	color: #fff;
+}
+
+.tg-contact-info__email a:hover {
+	border: none;
+	background: #FF3815;
+	border-radius: 30px;
+	padding: 1px 10px;
+
+	animation: shadow-pulse 1s infinite;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+
+}
+
+@keyframes shadow-pulse {
+	0% {
+		box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+	}
+
+	100% {
+		box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+	}
+}
+
+.tg-contact-info__email span {
+	font-size: 13px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* mobile menu */
+
+.tg-site-header .tg-header-top ul {
+  z-index: 999 !important;
+}
+
+.cenote-mobile-navigation.cenote-mobile-navigation--opened {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-box-shadow: 45px 10px 50px rgba(15, 15, 28, 0.5);
+  box-shadow: 45px 10px 50px rgba(15, 15, 28, 0.5);
+}
+
+html .tg-header-action-menu li.tg-menu-toggle--opened::before, 
+html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::before {
+
+	-webkit-transform: rotate(46deg) translateX(2px);
+	transform: rotate(46deg) translateX(2px);
+}
+
+
+html .tg-header-action-menu li.tg-menu-toggle--opened::after, 
+html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
+  
+	-webkit-transform: rotate(46deg) translateX(-2px);
+	transform: rotate(46deg) translateX(-2px);
+  
+}
+
+/*Home*/
+.home .torres-digital-background-head {
+	display: none;
+}
+
+/*Blog*/
+
+.tg-author-box {
+	border-bottom: none;
+}
+
+.cenote-breadcrumb li::before {
+	top: 13px;
+}
+
+.sudo-su .entry-header {
+	border-bottom: 2px solid #eeeeee;
+}
+
+.trail-item.trail-end {
+	position: relative;
+	top: 2.1%;
+}
+
+.page-template-default .entry-header .entry-title {
+	letter-spacing: 7px;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 34px;
+}
+
+.entry-content .first-child .cenote-drop-cap {
+	font-size: 61px;
+	color: inherit;
+	font-weight: 700;
+	float: left;
+	vertical-align: top;
+	line-height: 38%;
+	padding-right: 0px;
+	padding-left: 0;
+	padding-top: 13px;
+	text-shadow: none;
+	display: flow-root list-item;
+}
+
+.sudo-su .button,
+.sudo-su button,
+.sudo-su input[type="button"],
+.sudo-su input[type="reset"],
+.sudo-su input[type="submit"] {
+	border: 1px solid #333;
+	background-color: transparent;
+	color: #333;
+	padding: 10px 5px;
+	text-transform: lowercase;
+}
+
+.comments-area .comment-form .form-submit button.submit {
+	padding: 10px 28px;
+}
+
+#submit:hover {
+	color: #fff;
+}
+
+.comments-area .comment-form label {
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin-bottom: 0;
+	width: auto;
+}
+
+#wp-comment-cookies-consent {
+	top: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.entry-footer .cat-links a {
+	background: black;
+	text-transform: lowercase;
+	font-weight: 600;
+	padding: 2px 15px;
+}
+
+
+.tg-author-box .tg-author__website a {
+	color: #2b2b2b;
+	font-weight: 600;
+}
+
+.cenote-search-form__description {
+	text-align: center;
+}
+
+#secondary .search-field {
+	width: 100%;
+	position: initial;
+}
+
+.entry-footer .cat-links img.emoji {
+	position: relative;
+	display: inline-block;
+	top: 4px;
+}
+
+/*Busca Personalizada*/
+.cenote-search-form__description {
+	text-align: center;
+}
+
+.search-form .search-field {
+	width: 50%;
+	margin: 0 auto;
+	position: initial;
+	font-weight: 600;
+}
+
+#secondary .search-field {
+	width: 100%;
+	position: initial;
+}
+
+.cenote-search-form input[type="search"] {
+	text-align: center;
+	font-size: 34px;
+	font-style: inherit;
+	color: #000;
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
+	font-weight: 600;
+	line-height: 1.1;
+	letter-spacing: 1px;
+}
+
+
+/* ((Woocommerce)) */
+
+/*Pagina : Carrinho / Cesta*/
+.woocommerce-cart-form {
+	margin-top: 23px;
+}
+
+.woocommerce-cart table.cart .product-thumbnail {
+	width: 25%;
+}
+
+.sudo-su .woocommerce-cart-form__cart-item.cart_item .product-thumbnail img {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+}
+
+
+/*pagina de produtos*/
+
+.product-template-default #secondary {
+	display: none;
+}
+
+.product-template-default #primary {
+	width: 100%;
+	padding: 0;
+}
+
+.added_to_cart.wc-forward {
+	margin: 0 5px;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.woocommerce span.onsale {
+	background: #FF3815;
+	border-radius: 0;
+	padding: 0;
+	min-width: 30%;
+	width: 30%;
+	height: 10%;
+	min-height: 10%;
+	line-height: 25px;
+}
+
+.archive.post-type-archive .onsale {
+	line-height: 36px;
+	min-width: 20%;
+	width: 20%;
+	height: 8%;
+	min-height: 8%;
+}
+
+.product-template-default.woocommerce span.onsale {
+	background: #FF3815;
+	line-height: 37px;
+	min-width: 10%;
+	width: 6%;
+	height: 6%;
+	min-height: 6%;
+	border-radius: unset;
+	font-weight: 700;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+	background-color: #ff3815;
+}
+
+.woocommerce .quantity .qty {
+	text-align: center;
+	height: 37px;
+	width: 100%;
+	border-radius: 2px;
+}
+
+/* bdi e del  prices */
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce ul.products li.product .price ins,
+.price del,
+.post-type-archive .price del {
+	color: #ff3815;
+	font-size: 23px;
+	font-weight: 600;
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
+}
+
+.woocommerce div.product p.price bdi .woocommerce-Price-currencySymbol,
+.woocommerce div.product span.price bdi .woocommerce-Price-currencySymbol,
+.woocommerce-Price-amount.amount bdi .woocommerce-Price-currencySymbol {
+	font-size: 12px;
+}
+
+.woocommerce div.product p.price ins .woocommerce-Price-currencySymbol,
+.woocommerce div.product span.price ins .woocommerce-Price-currencySymbol,
+.woocommerce ul.products li.product .price ins .woocommerce-Price-currencySymbol {
+	font-size: 22px;
+}
+
+.woocommerce ul.products li.product .price {
+	color: #ff3815;
+}
+
+.price del,
+.post-type-archive .price del {
+	font-size: 20px;
+}
+
+.woocommerce ul.products li.product .button:hover {
+	background: #FF3815;
+	color: #fff;
+}
+
+/*cupon carrnho*/
+.woocommerce table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions .input-text {
+	width: 55%;
+	border-radius: 3px;
+}
+
+
+/* (( Checkout )) */
+.xoo-wsc-footer {
+	bottom: 12px;
+	display: block;
+	position: relative;
+}
+
+.woocommerce-input-wrapper {
+	font-weight: 600;
+}
+
+.site-info {
+	text-align: center;
+}
+
+.woocommerce-info {
+	border-top-color: #FF3815;
+}
+
+.woocommerce-info::before {
+	color: #FF3815;
+}
+
+.woocommerce-info {
+	background: #000;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sudo-su .woocommerce-info a {
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+	font-size: 12px;
+	font-weight: 600;
+	background: #FF3815;
+	padding: 0;
+	border: 1px solid #FF3815;
+	border-radius: 30px;
+	text-decoration: none;
+	display: block;
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.woocommerce-terms-and-conditions-checkbox-text {
+	background: #ff3815;
+	color: #fff;
+	padding: 9px 10px 5px;
+	font-weight: 600;
+	display: initial;
+}
+
+.woocommerce-terms-and-conditions-checkbox-text a {
+	color: #fff;
+	font-weight: 600;
+}
+
+.sudo-su .woocommerce-terms-and-conditions-link {
+	color: #fff
+}
+
+/*Contato*/
+.personnalite img {
+	animation: shake 7.1s infinite;
+}
+
+
+/*Contac Form*/
+.sudo-su .wpcf7-form-control.wpcf7-submit {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	display: block;
+}
+
+.sudo-su .wpcf7-form-control.wpcf7-submit:hover {
+	width: 100%;
+	transition: 0.25s;
+	transition-timing-function: ease-out;
+}
+
+.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+	height: 120px;
+}
+
+.sudo-su .wpcf7 form.sent .wpcf7-response-output {
+	border-color: #fff;
+	background: red;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+}
+
+
+/*BootStrap*/
+
+/*==================================================
+=            Bootstrap 3 Media Queries             = box-shadow: 0px -4px 35px -25px rgba(0, 0, 0, 0.31);
+==================================================*/
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 640px) {    
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1440px) {
+  
+  .tg-header-bottom {
+  position: relative;
+  display: initial;
+  overflow: initial;
+  bottom: 30px;
+	}
+  
+  
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+  
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+  #first_home_content h1, #second_home_content h2, .titulo {
+    font-size: 50px; }
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  
+  .main-navigation.cenote-sticky-navigation.tg-site-menu--default {
+    width: auto; }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+  .sudo-su #mobile-navigation a {
+	display: list-item;
+	margin: 15px auto;
+	font-size: 18px;
+	}
+
+.tg-container {
+	width: calc(100% - 50px);
+	}
+
+
+.site-branding {
+	width: 100%;
+	}
+
+.cenote-mobile-navigation {
+	width: calc(100% - 544px)
+	}
+
+.cenote-sticky-main .menu-menu-primario-container {
+	display: none;
+	}
+
+.main-navigation.cenote-sticky-navigation.tg-site-menu--default {
+	width: auto;
+	}
+
+#site-navigation #primary-menu a,
+#primary-menu a,
+#header-menu a {
+	padding: 0;
+	}
+
+element {
+	margin-left: 0;
+	}
+
+.breadcrumb-torres-digital,
+.sudo-su .woocommerce-breadcrumb {
+	font-size: 11.5px;
+	}
+
+.woocommerce .woocommerce-breadcrumb a {
+	font-size: 11.5px;
+	}
+
+.product-template-default.woocommerce span.onsale {
+	line-height: 32px;
+	min-width: 15%;
+	width: 15%;
+	height: 3%;
+	min-height: 3%;
+	}
+
+.archive.post-type-archive .onsale {
+	line-height: 27px;
+	font-size: 12px;
+	}
+
+.depois-do-titulo p {
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: 12px;
+	}
+
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 640px) {
+
+    html .cenote-mobile-navigation {width: calc(100% - 425px);}
+    .page-template-default .entry-header .entry-title {font-size: 23px;text-align: center;}
+    .sudo-su .woocommerce-info a {width: 100%}
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    html .cenote-mobile-navigation {width: calc(100% - 312px);}
+    
+    .tg-container {width: calc(100% - 25px);}
+
+    .site-branding {width: 100%;margin-top: 9px;}
+    /*.header-bottom-bottom {top: -168px;position: relative;}*/
+    .torres-digital-background-head {top:0}
+    .tg-header-bottom {height: 167px;}
+    .torres-digital-background-head {height: 189px;position: relative; background-attachment: inherit;}
+    .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 100%;}
+    .tg-site-footer .tg-footer-bottom .site-info {font-size: 9px;}
+    
+    .woocommerce-terms-and-conditions-checkbox-text {font-size: 14px}
+
+
+}
+
+/*CELULARES MOTOROLA */
+
+@media only screen and (max-width: 412px) {
+  
+  html .cenote-mobile-navigation {
+    
+    width: calc(100% - 200px);
+    
+  }
+  
+}
+
+
+
+@media only screen and (max-width : 360px) {
+
+    html .cenote-mobile-navigation {width: calc(100% - 213px);}
+    
+    .tg-container {width: calc(100% - 22px);}
+
+    /*.sudo-su p { font-size: 12px;  } */
+    .sudo-su blockquote p, blockquote a {font-size: 9.9px;}
+
+    .header-bottom-bottom {top: 0;position: relative;}
+    .site-branding {width: 100%;margin-top: 9px;}
+    .sudo-su h1 {font-size: 26px;}
+    .sudo-su h2 {font-size: 21px;}
+    .sudo-su h3 {font-size: 15px;text-align: center;}
+
+	html .site_content_p { color: #000; font-size: 19px; letter-spacing: 0px; margin: 0px 30px; position: relative; font-weight: 500; line-height: 24px; font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif; }
+  
+  .cenote-mobile-navigation.cenote-mobile-navigation--opened {
+  -webkit-box-shadow: 0px 00px 10px 8px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 00px 10px 8px rgba(0, 0, 0, 0.31);
+}
+  
+
+    html .cenote-mobile-navigation {width: calc(100% - 139px);}
+    .tg-header-action-menu {right: 12px;position: relative;}
+    .breadcrumb-torres-digital a {font-size: 10.5px;}
+    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
+    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
+    .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
+    .archive.post-type-archive .onsale {min-width: 50%;width: 50%;height: 10%;min-height: 10%;}
+    .archive.post-type-archive .onsale {line-height: 23px;font-size: 10px;}
+    .product-template-default.woocommerce span.onsale {line-height: 26px;min-width: 24%;width: 24%;height: 3%;min-height: 3%;font-size: 12px;left: 0px;}
+
+    .woocommerce-page table.cart td.actions .coupon .input-text + .button {font-size: 12px;padding: 12px 0;}
+    .woocommerce-terms-and-conditions-checkbox-text {font-size: 10px;}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+    .tg-container {width: calc(100% - 10px);}
+
+    /*.sudo-su p { font-size: 12px;  }
+    .sudo-su blockquote p, blockquote a {font-size: 9.9px;}
+
+    .header-bottom-bottom {top: -109px;position: relative;}
+    .site-branding {width: 44%;margin-top: 9px;}
+    .sudo-su h1 {font-size: 26px;}
+    .sudo-su h2 {font-size: 17px;}
+    .sudo-su h3 {font-size: 15px;text-align: center;}
+
+    html .cenote-mobile-navigation {width: calc(100% - 139px);}
+    .tg-header-action-menu {right: 12px;position: relative;}
+    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
+    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
+    .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
+    .archive.post-type-archive .onsale {min-width: 50%;width: 50%;height: 10%;min-height: 10%;}
+    .archive.post-type-archive .onsale {line-height: 23px;font-size: 10px;}
+    .product-template-default.woocommerce span.onsale {line-height: 26px;min-width: 24%;width: 24%;height: 3%;min-height: 3%;font-size: 12px;left: 0px;}
+
+    .woocommerce-page table.cart td.actions .coupon .input-text + .button {font-size: 12px;padding: 12px 0;} */
+}
+
+
+
+/*=====================================================
+=            Bootstrap 2.3.2 Media Queries            =
+=====================================================*/
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+/*
+Based on:
+1. http://stephen.io/mediaqueries
+2. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+
+/* iPhone 6 in portrait & landscape */
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px) {
+
+}
+
+/* iPhone 6 in landscape */
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : landscape) {
+
+}
+
+/* iPhone 6 in portrait */
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : portrait) {
+
+}
+
+/* iPhone 6 Plus in portrait & landscape */
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px) {
+
+}
+
+/* iPhone 6 Plus in landscape */
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : landscape) {
+
+}
+
+/* iPhone 6 Plus in portrait */
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : portrait) {
+
+}
+
+/* iPhone 5 & 5S in portrait & landscape */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 & 5S in landscape */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : landscape) {
+
+}
+
+/* iPhone 5 & 5S in portrait */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : portrait) {
+
+}
+
+/*
+iPhone 2G, 3G, 4, 4S Media Queries
+It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
+*/
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px)
+    and (orientation : landscape) {
+
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px)
+    and (orientation : portrait) {
+
+}
+
+/* iPad in portrait & landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)  {
+
+}
+
+/* iPad in landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape) {
+
+}
+
+/* iPad in portrait */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait) {
+
+}
+
+/* Galaxy S3 portrait and landscape */
+@media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Galaxy S3 portrait */
+@media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+
+}
+
+/* Galaxy S3 landscape */
+@media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+
+}
+
+/* Galaxy S4 portrait and landscape */
+@media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Galaxy S4 portrait */
+@media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+
+}
+
+/* Galaxy S4 landscape */
+@media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+
+}
+
+/* Galaxy S5 portrait and landscape */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Galaxy S5 portrait */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+
+}
+
+/* Galaxy S5 landscape */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+
+}
+
+/* HTC One portrait and landscape */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* HTC One portrait */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+
+}
+
+/* HTC One landscape */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: landscape) {
+
+}
+
+/*
+iPad 3 & 4 Media Queries
+If you're looking to target only 3rd and 4th generation Retina iPads
+(or tablets with similar resolution) to add @2x graphics,
+or other features for the tablet's Retina display, use the following media queries.
+*/
+
+/* Retina iPad in portrait & landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Retina iPad in landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Retina iPad in portrait */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/*
+iPad 1 & 2 Media Queries
+If you're looking to supply different graphics or choose different typography
+for the lower resolution iPad display, the media queries below will work
+like a charm in your responsive design!
+*/
+
+/* iPad 1 & 2 in portrait & landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad 1 & 2 in landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad 1 & 2 in portrait */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait & landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Galaxy Tab 10.1 portrait and landscape */
+@media
+    (min-device-width: 800px)
+    and (max-device-width: 1280px) {
+
+}
+
+/* Galaxy Tab 10.1 portrait */
+@media
+    (max-device-width: 800px)
+    and (orientation: portrait) {
+
+}
+
+/* Galaxy Tab 10.1 landscape */
+@media
+    (max-device-width: 1280px)
+    and (orientation: landscape) {
+
+}
+
+/* Asus Nexus 7 portrait and landscape */
+@media screen
+    and (device-width: 601px)
+    and (device-height: 906px)
+    and (-webkit-min-device-pixel-ratio: 1.331)
+    and (-webkit-max-device-pixel-ratio: 1.332) {
+
+}
+
+/* Asus Nexus 7 portrait */
+@media screen
+    and (device-width: 601px)
+    and (device-height: 906px)
+    and (-webkit-min-device-pixel-ratio: 1.331)
+    and (-webkit-max-device-pixel-ratio: 1.332)
+    and (orientation: portrait) {
+
+}
+
+/* Asus Nexus 7 landscape */
+@media screen
+    and (device-width: 601px)
+    and (device-height: 906px)
+    and (-webkit-min-device-pixel-ratio: 1.331)
+    and (-webkit-max-device-pixel-ratio: 1.332)
+    and (orientation: landscape) {
+
+}
+
+/* Kindle Fire HD 7" portrait and landscape */
+@media only screen
+    and (min-device-width: 800px)
+    and (max-device-width: 1280px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Kindle Fire HD 7" portrait */
+@media only screen
+    and (min-device-width: 800px)
+    and (max-device-width: 1280px)
+    and (-webkit-min-device-pixel-ratio: 1.5)
+    and (orientation: portrait) {
+
+}
+
+/* Kindle Fire HD 7" landscape */
+@media only screen
+    and (min-device-width: 800px)
+    and (max-device-width: 1280px)
+    and (-webkit-min-device-pixel-ratio: 1.5)
+    and (orientation: landscape) {
+
+}
+
+/* Kindle Fire HD 8.9" portrait and landscape */
+@media only screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Kindle Fire HD 8.9" portrait */
+@media only screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1.5)
+    and (orientation: portrait) {
+
+}
+
+/* Kindle Fire HD 8.9" landscape */
+@media only screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1.5)
+    and (orientation: landscape) {
+
+}
+
+/* Laptops non-retina screens */
+@media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Laptops retina screens */
+@media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) {
+
+}
+
+/* Apple Watch */
+@media
+    (max-device-width: 42mm)
+    and (min-device-width: 38mm) {
+
+}
+
+/* Moto 360 Watch */
+@media
+    (max-device-width: 218px)
+    and (max-device-height: 281px) {
+
+}
+
+.sudo-su .xoo-wsc-bki.xoo-wsc-icon-basket1, .sudo-su .xoo-wscb-icon.xoo-wsc-icon-bag2 { font-family: 'ecommerce' !important;}
+.xoo-wsc-icon-basket1::before, .xoo-wsc-icon-bag2::before {  content: "\e74b"; }
+.sudo-su .xoo-wsc-ft-btn.button { font-size: 12px; font-weight: 600 }
+.xoo-wsc-basket {border-radius: 100%;}
+.cenote-back-to-top {position: fixed;bottom: 166px;right: -45px;}
+.xoo-wsc-ft-btn.button:hover, .sudo-su .button:hover, .sudo-su button:hover, .sudo-su input[type="button"]:hover, .sudo-su input[type="reset"]:hover, .sudo-su input[type="submit"]:hover {background: #000;color: #fff;}
+
+
+@font-face {
+    font-family: 'ecommerce';
+    src: url('/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/font-ecommerce/fonts/ecommerce.eot?-co9dpe');
+    src: url('/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/font-ecommerce/fonts/ecommerce.eot?#iefix-co9dpe') format('embedded-opentype'), url('/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/font-ecommerce/fonts/ecommerce.ttf?-co9dpe') format('truetype'), url('/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/font-ecommerce/fonts/ecommerce.woff?-co9dpe') format('woff'), url('/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/font-ecommerce/fonts/ecommerce.svg?-co9dpe#ecommerce') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/FuturaPT-Demi.woff2") format("woff2"), url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/FuturaPT-Demi.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/FuturaPT-Medium.woff2") format("woff2"), url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/FuturaPT-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/FuturaPT-BookObl.woff2") format("woff2"), url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/fonts/FuturaPT-BookObl.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/FuturaPT-Book.woff2") format("woff2"), url("/wp-content/themes/torres-digital-wordpress-official-theme-master/fonts/fonts/FuturaPT-Book.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
+
+/* titulo do slide*
+.slide_title { font-weight: 900; font-size: 30px }
+
+.slide_title { font-weight: 900; font-size: 70px;
+  position: relative; z-index: 1; color: #fff; margin: 0 auto;
+  display: inherit; text-align: center;
+}
+
+html .slide_da_home_img, html #slide_da_home { z-index: 0; position: relative; display: initial; }
+
+html #slide_da_home_descricao {
+  position: relative;
+  display: inherit;
+  z-index: 1;
+  bottom: 448px;
+  padding: 20px 0;
+  margin: 10px auto;
+  text-align: center;
+}
+
+*/
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
+/*   
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+font-family: 'Inconsolata', monospace;
+
+font-family: 'Nunito', sans-serif; 
+
+
+font-family: 'Inconsolata', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #555;line-height: 140%;letter-spacing: 1px;
+*/
+
+/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
+@import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+-moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
+/*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
