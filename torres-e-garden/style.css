@@ -88,7 +88,6 @@ html .botao_home {
 	text-decoration: none
 }
 
-.entry-content a {}
 
 #home_button_id {
 	margin-bottom: 12px;
@@ -110,7 +109,6 @@ html .botao_home {
 	height: 50px;
 }
 
-.home_button_container a {}
 
 .botao_home .fa:hover {
 	color: #16181a;
@@ -153,9 +151,7 @@ html .botao_home {
 	display: block;
 	border-style: solid;
 	border-width: 2px 0 0;
-	width: 100%
-		/* 32rem */
-	;
+	width: 100% /* 32rem */;
 	position: relative;
 	margin: 6px auto 0;
 }
@@ -368,12 +364,21 @@ blockquote::after {
 /*Head*/
 
 .tg-site-header .tg-header-top {
-	background: #fff;
+	background: transparent;
+}
+
+html .tg-header-top {
+  z-index: 999999999;
+  position: relative;
 }
 
 .tg-site-header .tg-header-top ul li a {
 	color: #2b2b2b;
 	font-weight: 600
+}
+
+.tg-contact-info__phone a > span {
+  font-size: 16px;
 }
 
 #cenote-sticky-header {
@@ -399,7 +404,7 @@ blockquote::after {
 }
 
 html .torres-digital-logo-sticky {
-	background-image: url("/jardinagem/wp-content/themes/torres-digital-wordpress-official-theme-master/img/head/torres-digital-sticky-logo.jpg");
+	background-image: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/img/head/torres-digital-sticky-logo.jpg");
 	width: 175px;
 	height: 45px;
 	position: relative;
@@ -982,7 +987,12 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 .cenote-mobile-navigation {
 	width: calc(100% - 544px)
 	}
-
+  
+  .cenote-mobile-navigation.cenote-mobile-navigation--opened {
+    box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
+    border-top: 5px solid red;
+  }
+  
 .cenote-sticky-main .menu-menu-primario-container {
 	display: none;
 	}
@@ -997,9 +1007,6 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 	padding: 0;
 	}
 
-element {
-	margin-left: 0;
-	}
 
 .breadcrumb-torres-digital,
 .sudo-su .woocommerce-breadcrumb {
@@ -1039,6 +1046,8 @@ element {
     html .cenote-mobile-navigation {width: calc(100% - 425px);}
     .page-template-default .entry-header .entry-title {font-size: 23px;text-align: center;}
     .sudo-su .woocommerce-info a {width: 100%}
+  
+    .tg-header-bottom { bottom: 0; }
 
 
 }
