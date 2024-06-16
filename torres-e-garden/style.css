@@ -398,7 +398,6 @@ html .tg-header-top {
 }
 
 /*Logo*/
-
 .site-branding {
 	width: 100%;
 }
@@ -412,7 +411,7 @@ html .torres-digital-logo-sticky {
 }
 
 .main-navigation.cenote-sticky-navigation.tg-site-menu--default {
-	width: 85%%;
+	width: 85%;
 	display: flex;
 }
 
@@ -422,8 +421,7 @@ html .torres-digital-logo-sticky {
 #primary-menu a,
 #header-menu a {
 	font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
-	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 17px;
 	padding: 0 8px;
 	margin: 9px 8px 0;
 	color: #161619;
@@ -455,7 +453,6 @@ html .torres-digital-logo-sticky {
 	background: #FF3815;
 	border-radius: 30px;
 	padding: 1px 10px;
-
 	animation: shadow-pulse 1s infinite;
 	cursor: pointer;
 	box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
