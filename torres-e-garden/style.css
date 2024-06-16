@@ -307,7 +307,7 @@ blockquote {
 }
 
 p {
-	font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif /* -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" */;
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
   
 	font-size: 15px;
 	line-height: 1.5;
@@ -398,7 +398,6 @@ html .tg-header-top {
 }
 
 /*Logo*/
-
 .site-branding {
 	width: 100%;
 }
@@ -412,18 +411,22 @@ html .torres-digital-logo-sticky {
 }
 
 .main-navigation.cenote-sticky-navigation.tg-site-menu--default {
-	width: 85%%;
+	width: 85%;
 	display: flex;
 }
 
 /*Menu*/
 
+html #header-menu a {
+	font-size: 15px;
+	font-weight: 500;
+  }
+
 #site-navigation #primary-menu a,
 #primary-menu a,
 #header-menu a {
 	font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
-	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 16.66px;
 	padding: 0 8px;
 	margin: 9px 8px 0;
 	color: #161619;
@@ -455,7 +458,6 @@ html .torres-digital-logo-sticky {
 	background: #FF3815;
 	border-radius: 30px;
 	padding: 1px 10px;
-
 	animation: shadow-pulse 1s infinite;
 	cursor: pointer;
 	box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
@@ -875,7 +877,7 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 /*BootStrap*/
 
 /*==================================================
-=            Bootstrap 3 Media Queries             = box-shadow: 0px -4px 35px -25px rgba(0, 0, 0, 0.31);
+=            Bootstrap 3 Media Queries             = 
 ==================================================*/
 
 
@@ -1678,52 +1680,3 @@ like a charm in your responsive design!
 
 @keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
 
-/* titulo do slide*
-.slide_title { font-weight: 900; font-size: 30px }
-
-.slide_title { font-weight: 900; font-size: 70px;
-  position: relative; z-index: 1; color: #fff; margin: 0 auto;
-  display: inherit; text-align: center;
-}
-
-html .slide_da_home_img, html #slide_da_home { z-index: 0; position: relative; display: initial; }
-
-html #slide_da_home_descricao {
-  position: relative;
-  display: inherit;
-  z-index: 1;
-  bottom: 448px;
-  padding: 20px 0;
-  margin: 10px auto;
-  text-align: center;
-}
-
-*/
-
-
-
-
-/*
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
-/*   
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-
-font-family: 'Inconsolata', monospace;
-
-font-family: 'Nunito', sans-serif; 
-
-
-font-family: 'Inconsolata', monospace;
-font-family: 'Nunito', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #555;line-height: 140%;letter-spacing: 1px;
-*/
-
-/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
-@import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
-
-@import url('https://fonts.googleapis.com/css?family=Poppins');
--moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
-/*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
