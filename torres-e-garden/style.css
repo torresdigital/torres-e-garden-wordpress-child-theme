@@ -18,6 +18,10 @@ Updated: 2020-12-09 03:29:10
 
 /*Padrao*/
 
+#post-221 {
+    margin-top: 60px;
+  }
+
 #first_home_content h1,
 #second_home_content h2,
 .titulo {
@@ -309,10 +313,10 @@ blockquote {
 p {
 	font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
   
-	font-size: 15px;
+	font-size: 19px;
 	line-height: 1.5;
 	font-weight: 400;
-	color: #2d2d2d;
+	color: #333;
 	letter-spacing: 0;
 }
 
@@ -326,6 +330,11 @@ blockquote::after {
 }
 
 /*Mobile navigation*/
+.sudo-su #mobile-navigation .torres-digital-logo-sticky {
+    display: initial;
+  }
+
+
 .cenote-mobile-navigation a::after {
 	display: none;
 }
@@ -357,9 +366,19 @@ blockquote::after {
 
 /*footer info*/
 .tg-site-footer .tg-footer-bottom .site-info {
-	font-family: 'Inconsolata', monospace;
 	font-size: 11px;
 }
+
+.tg-footer-top #torres-digital-logo-sticky {
+    display: inherit;
+  }
+
+  #block-6 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+ }
+
 
 /*Head*/
 
@@ -368,7 +387,7 @@ blockquote::after {
 }
 
 html .tg-header-top {
-  z-index: 999999999;
+  z-index: 9999;
   position: relative;
 }
 
@@ -1056,7 +1075,7 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     
-    html .cenote-mobile-navigation {width: calc(100% - 312px);}
+    html .cenote-mobile-navigation {width: calc(100% - 243px);}
     
     .tg-container {width: calc(100% - 25px);}
 
