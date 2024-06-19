@@ -125,6 +125,18 @@ html .botao_home {
 	display: initial;
 }
 
+.fa-whatsapp::before {
+	content: "\f232";
+	font-size: 26px;
+	transition: background 0.2s ease-in-out 0s;
+	animation: shadow-pulse 1s infinite;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(38, 100, 32, 0.4);
+	border-radius: 30px;
+	height: 21px;
+	line-height: 22px;
+  }
+
 
 .cenote-back-to-top.cenote-back-to-top--show span {
 	background: white;
@@ -399,7 +411,9 @@ html .tg-header-top {
 .tg-contact-info__phone a > span {
   font-size: 16px;
 }
-
+.tg-contact-info__phone .fa.fa-phone:hover {
+    color: green;
+  }
 #cenote-sticky-header {
 	background: #fff;
 	
@@ -1074,6 +1088,8 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+    .first_content_title { text-align: center; margin: 12px auto; }
     
     html .cenote-mobile-navigation {width: calc(100% - 243px);}
     
