@@ -995,7 +995,12 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 @media only screen and (max-width : 1024px) {
 
   #first_home_content h1, #second_home_content h2, .titulo {
-    font-size: 50px; }
+    font-size: 50px; 
+	}
+
+	.sudo-su iframe { height: 286px; }
+	.tg-site-footer .tg-footer-widget-area { width: 50%;  }
+
 
 }
 
@@ -1004,8 +1009,14 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 @media only screen and (max-width : 992px) {
   
   .main-navigation.cenote-sticky-navigation.tg-site-menu--default {
-    width: auto; }
-
+    width: auto; 
+	}
+	.tg-site-footer .tg-footer-widget-area {
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 50%;
+	  }
+	  
 }
 
 /* Small Devices, Tablets */
@@ -1020,6 +1031,14 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 .tg-container {
 	width: calc(100% - 50px);
 	}
+
+	html .kc_col-sm-6 {
+		width: 85%;
+		margin: 0 auto;
+		position: relative;
+		display: block;
+		float: none;
+	  }
 
 
 .site-branding {
@@ -1077,6 +1096,16 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 	line-height: 18px;
 	margin-top: 12px;
 	}
+	.tg-site-footer .tg-footer-widget-area {
+		width: calc(75% - 20px);
+		margin: 0 auto;
+		position: relative;
+		display: inline-block;
+		float: none;
+	  }
+	  .sudo-su iframe {
+		height: 286px;
+	  }
 
 }
 
@@ -1112,7 +1141,9 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
     
     .woocommerce-terms-and-conditions-checkbox-text {font-size: 14px}
 
-
+	.sudo-su iframe {
+		height: 256px;
+	  }
 }
 
 /*CELULARES MOTOROLA */
