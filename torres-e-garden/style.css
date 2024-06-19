@@ -390,6 +390,13 @@ blockquote::after {
     font-weight: 500;
     color: #333;
  }
+ .creditos {font-weight: 600}
+ .creditos, .donwload-git-hub {
+	font-size: 14px;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+  }
 
 
 /*Head*/
