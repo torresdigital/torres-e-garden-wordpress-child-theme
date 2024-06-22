@@ -1183,7 +1183,7 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 }
   
 
-    html .cenote-mobile-navigation {width: calc(100% - 139px);}
+    html .cenote-mobile-navigation {width: calc(100% - 100px);}
     .tg-header-action-menu {right: 12px;position: relative;}
     .breadcrumb-torres-digital a {font-size: 10.5px;}
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
