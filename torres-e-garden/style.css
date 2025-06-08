@@ -375,6 +375,9 @@ blockquote::after {
 	display: list-item;
 	margin: 15px auto;
 }
+html .tg-header-action-menu li.tg-mobile-menu-toggle span {
+margin: 2px 0; 
+}
 
 /*footer info*/
 .tg-site-footer .tg-footer-bottom .site-info {
@@ -416,7 +419,7 @@ html .tg-header-top {
 }
 
 .tg-contact-info__phone a > span {
-  font-size: 16px;
+  font-size: 18px;
 }
 .tg-contact-info__phone .fa.fa-phone:hover {
     color: green;
