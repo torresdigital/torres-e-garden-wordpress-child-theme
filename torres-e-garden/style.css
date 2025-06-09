@@ -342,6 +342,13 @@ blockquote::after {
 }
 
 /*Mobile navigation*/
+.tg-header-action-menu li.tg-menu-toggle::before, .tg-header-action-menu li.tg-menu-toggle::after, .tg-header-action-menu li.tg-mobile-menu-toggle::before, .tg-header-action-menu li.tg-mobile-menu-toggle::after {
+  top: 9px;
+  position: relative;
+}
+
+
+
 .sudo-su #mobile-navigation .torres-digital-logo-sticky {
     display: initial;
   }
@@ -356,11 +363,11 @@ blockquote::after {
 }
 
 .tg-mobile-menu-toggle {
-	padding: 7px 5px 0;
-	width: 27px;
-	min-width: 27px;
-	height: 27px;
-	min-height: 27px;
+	padding: 5px;
+	width: 37px;
+	min-width: 37px;
+	height: 37px;
+	min-height: 37px;
 	border: none;
 	border-radius: 50%;
 	-webkit-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
@@ -376,7 +383,9 @@ blockquote::after {
 	margin: 15px auto;
 }
 html .tg-header-action-menu li.tg-mobile-menu-toggle span {
-margin: 2px 0; 
+margin: 4px 0;
+top: 9px;
+position: relative;
 }
 
 /*footer info*/
@@ -538,16 +547,16 @@ html #header-menu a {
 html .tg-header-action-menu li.tg-menu-toggle--opened::before, 
 html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::before {
 
-	-webkit-transform: rotate(46deg) translateX(2px);
-	transform: rotate(46deg) translateX(2px);
+	-webkit-transform: rotate(46deg) translateX(2px)translateY(-1px);
+	transform: rotate(46deg) translateX(2px) translateY(-1px);
 }
 
 
 html .tg-header-action-menu li.tg-menu-toggle--opened::after, 
 html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
   
-	-webkit-transform: rotate(46deg) translateX(-2px);
-	transform: rotate(46deg) translateX(-2px);
+	-webkit-transform: rotate(46deg) translateX(-2px) translateY(1px);
+	transform: rotate(46deg) translateX(-2px) translateY(1px);
   
 }
 
@@ -1162,7 +1171,15 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 }
 
 
+/* XAOMI REDMI NOTE 9 */
+@media only screen and (max-width : 396px) { 
 
+   html .cenote-mobile-navigation {
+    width: calc(100% - 175px);
+  }
+
+}
+  
 @media only screen and (max-width : 360px) {
 
     html .cenote-mobile-navigation {width: calc(100% - 213px);}
