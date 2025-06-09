@@ -343,7 +343,7 @@ blockquote::after {
 
 /*Mobile navigation*/
 .tg-header-action-menu li.tg-menu-toggle::before, .tg-header-action-menu li.tg-menu-toggle::after, .tg-header-action-menu li.tg-mobile-menu-toggle::before, .tg-header-action-menu li.tg-mobile-menu-toggle::after {
-  top: 9px;
+  top: 5px;
   position: relative;
 }
 
@@ -376,6 +376,7 @@ blockquote::after {
 	animation: shadow-pulse 1s infinite;
 	cursor: pointer;
 	box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+  border: 4px solid #f4f4f4;
 }
 
 .sudo-su #mobile-navigation a {
@@ -384,7 +385,7 @@ blockquote::after {
 }
 html .tg-header-action-menu li.tg-mobile-menu-toggle span {
 margin: 4px 0;
-top: 9px;
+top: 5px;
 position: relative;
 }
 
@@ -547,16 +548,16 @@ html #header-menu a {
 html .tg-header-action-menu li.tg-menu-toggle--opened::before, 
 html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::before {
 
-	-webkit-transform: rotate(46deg) translateX(2px)translateY(-1px);
-	transform: rotate(46deg) translateX(2px) translateY(-1px);
+	-webkit-transform: rotate(46deg) translateX(3px) translateY(0px);
+	transform: rotate(46deg) translateX(3px) translateY(0px);
 }
 
 
 html .tg-header-action-menu li.tg-menu-toggle--opened::after, 
 html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
   
-	-webkit-transform: rotate(46deg) translateX(-2px) translateY(1px);
-	transform: rotate(46deg) translateX(-2px) translateY(1px);
+	-webkit-transform: rotate(46deg) translateX(-2px) translateY(-1px);
+	transform: rotate(46deg) translateX(-2px) translateY(-1px);
   
 }
 
@@ -1109,7 +1110,7 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 	margin-top: 12px;
 	}
 	.tg-site-footer .tg-footer-widget-area {
-		width: calc(75% - 20px);
+		width: calc(75% - 0px);
 		margin: 0 auto;
 		position: relative;
 		display: inline-block;
@@ -1118,6 +1119,11 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 	  .sudo-su iframe {
 		height: 286px;
 	  }
+  
+   html .tg-site-footer .tg-footer-widget-container { padding: 0; }
+  
+   body:not(.layout--no-sidebar) #primary, .site-content,
+   body:not(.post-template-post-template-cover) #primary { margin-bottom: 0px; }
 
 }
 
@@ -1126,11 +1132,12 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
 
-    html .cenote-mobile-navigation {width: calc(100% - 425px);}
+     html .cenote-mobile-navigation {width: calc(100% - 425px);}
     .page-template-default .entry-header .entry-title {font-size: 23px;text-align: center;}
     .sudo-su .woocommerce-info a {width: 100%}
   
     .tg-header-bottom { bottom: 0; }
+    .tg-site-footer .tg-footer-widget-area { width: calc(85% - 0px);  }
 
 
 }
@@ -1148,14 +1155,13 @@ html .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
     .torres-digital-background-head {top:0}
     .tg-header-bottom {height: 167px;}
     .torres-digital-background-head {height: 189px;position: relative; background-attachment: inherit;}
-    .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 100%;}
+    .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required { width: 100%; }
     .tg-site-footer .tg-footer-bottom .site-info {font-size: 9px;}
     
     .woocommerce-terms-and-conditions-checkbox-text {font-size: 14px}
+	  .sudo-su iframe { height: 256px; }
+    .tg-site-footer .tg-footer-widget-area { width: calc(100% - 0px);  padding: 0; }
 
-	.sudo-su iframe {
-		height: 256px;
-	  }
 }
 
 /*CELULARES MOTOROLA */
